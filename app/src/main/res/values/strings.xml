@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">GhibahFilm</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="daftar">Daftar.</string>
+    <string name="senang_melihat_anda_lagi">Senang melihat anda lagi!</string>
+    <string name="login">Login</string>
+    <string name="email_adress">Email Adress</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="lupa_sandi">Lupa sandi?</string>
+    <string name="terbaru">Terbaru</string>
+    <string name="segera">Segera</string>
+    <string name="trending">Trending</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="judul">Judul</string>
+    <string name="durasi">Durasi</string>
+    <string name="tenet">Tenet</string>
+    <string name="_97_min">97 Min</string>
+    <string name="enola_holmes">Enola Holmes</string>
+    <string name="_121_min">121 Min</string>
+    <string name="mulan">Mulan</string>
+    <string name="_120_min">120 Min</string>
+    <string name="bucin">Bucin</string>
+    <string name="soul">Soul</string>
+    <string name="_2020">2020</string>
+    <string name="joker">Joker</string>
+    <string name="imperfect">Imperfect</string>
+    <string name="_113_min">113 Min</string>
+    <string name="facebook_app_id">1764787270342977</string>
+    <string name="fb_login_protocol_scheme">fb1764787270342977</string>
+    <string name="or_sign_in_with">Or Sign In With</string>
+    <string name="movies">MOVIES</string>
+    <string name="category">CATEGORY</string>
+    <string name="profile">PROFILE</string>
+    <string name="ghibah_film">Ghibah Film</string>
+    <string name="buat_akun">Buat Akun</string>
+    <string name="username">Username</string>
+    <string name="kata_sandi_baru">Kata Sandi Baru</string>
+    <string name="reset">RESET</string>
+    <string name="daftarr">DAFTAR</string>
+    <string name="fiksi">| Fiksi</string>
+    <string name="horor">| Horor</string>
+    <string name="tandajudul">|</string>
+    <string name="_16">16+</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="sutradara">Sutradara :</string>
+    <string name="nama_sutradara">Nama sutradara</string>
+    <string name="durasid">Durasi :</string>
+    <string name="durasi_t">Durasi\t:</string>
+    <string name="search">Search</string>
+
+</resources>

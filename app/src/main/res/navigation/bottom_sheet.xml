@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    app:startDestination="@id/informasi">
+
+    <fragment
+        android:id="@+id/informasi"
+        android:name="com.dicoding.ghibahfilm.informasi"
+        tools:layout="@layout/fragment_informasi" >
+        <action
+            android:id="@+id/action_informasi_to_sheet"
+            app:destination="@id/sheet" />
+    </fragment>
+    <dialog
+        android:id="@+id/sheet"
+        android:name="com.dicoding.ghibahfilm.sheet"
+        android:label="fragment_sheet"
+        tools:layout="@layout/fragment_sheet" >
+        <action
+            android:id="@+id/action_sheet_to_informasi"
+            app:destination="@id/informasi" />
+        <action
+            android:id="@+id/action_sheet_to_review2"
+            app:destination="@id/review2" />
+    </dialog>
+    <dialog
+        android:id="@+id/review2"
+        android:name="com.dicoding.ghibahfilm.review"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review">
+        <action
+            android:id="@+id/action_review2_to_informasi2"
+            app:destination="@id/informasi" />
+    </dialog>
+</navigation>

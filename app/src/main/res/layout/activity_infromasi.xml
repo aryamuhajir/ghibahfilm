@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@color/hitamfilm"
+android:id="@+id/detail"
+android:orientation="vertical"
+tools:context=".infromasi">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <com.jgabrielfreitas.core.BlurImageView
+                    android:id="@+id/gambarfilmd"
+                    android:layout_width="match_parent"
+                    android:layout_height="480dp"
+                    android:src="@drawable/bucin"
+                    android:scaleType="fitXY"
+                    app:radius="25"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_soon"
+                    android:scaleType="fitXY"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="200dp"
+                    android:id="@+id/review"
+
+                    android:layout_marginStart="110dp"
+                    android:src="@drawable/ic_tenetreview"/>
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/_16"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/light"
+                    android:textSize="10sp"
+                    android:id="@+id/rating"
+                    android:layout_marginBottom="201dp"
+                    android:gravity="center"
+                    android:background="@color/menu"
+                    android:layout_marginStart="225dp" />
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/_16"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/light"
+                    android:textSize="10sp"
+                    android:id="@+id/rating2"
+                    android:layout_marginBottom="201dp"
+                    android:gravity="center"
+                    android:background="@color/menu"
+                    android:layout_marginStart="170dp" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/_2020"
+                    android:textColor="@color/abu"
+                    android:fontFamily="@font/light"
+                    android:id="@+id/tahun"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="200dp"
+                    android:gravity="center"
+
+                    android:layout_marginStart="255dp" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/_2020"
+                    android:textColor="@color/abu"
+                    android:fontFamily="@font/light"
+                    android:id="@+id/tahun2"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="200dp"
+                    android:gravity="center"
+
+                    android:layout_marginStart="205dp" />
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="160dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="125dp"
+                    android:layout_height="240dp"
+                    android:layout_gravity="top"
+                    app:cardCornerRadius="4dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:id="@+id/gambarkartu"
+                        android:src="@drawable/bucin"/>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/sinopsis"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/light"
+                        android:text="@string/sinopsis"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/my_nav_host_fragment2"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    app:navGraph="@navigation/bottom_sheet"
+                    app:defaultNavHost="true"/>
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/my_nav_host_fragment4"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    app:navGraph="@navigation/bottom_sheet3"
+                    app:defaultNavHost="true"/>
+
+
+
+
+
+
+
+
+            </FrameLayout>
+
+
+
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="40dp"
+                            android:src="@drawable/ic_sutradaraputih"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="30dp"
+                            android:text="Sutradara    :"
+                            android:layout_marginEnd="16dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"/>
+
+                    </FrameLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/sutradara"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:text="@string/nama_sutradara"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Durasi \t        :"
+                            android:layout_marginEnd="16dp"
+                            android:paddingLeft="30dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"/>
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_durasiputih"/>
+
+                    </FrameLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:id="@+id/durasi"
+                        android:text="@string/durasi"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Musik \t        :"
+                            android:layout_marginEnd="16dp"
+                            android:paddingLeft="30dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="26dp"
+                            android:src="@drawable/ic_musicputih"/>
+
+                    </FrameLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:id="@+id/musik"
+                        android:text="Musik"/>
+
+
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pemain"
+                    android:textColor="@color/menu"
+                    android:textSize="24sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="80dp"
+                        android:layout_height="112dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginTop="10dp"
+                        app:cardElevation="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardBackgroundColor="@color/hitambaru"
+                        android:layout_marginBottom="20dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <ImageView
+                                    android:id="@+id/pemain1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/robert"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                >
+                                <TextView
+                                    android:id="@+id/nama1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Robert Pattinson"
+                                    android:textColor="@color/menu"
+                                    android:paddingLeft="3dp"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/light"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="80dp"
+                        android:layout_height="112dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginTop="10dp"
+                        app:cardElevation="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardBackgroundColor="@color/hitambaru"
+                        android:layout_marginBottom="20dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <ImageView
+                                    android:id="@+id/pemain2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/tenetelizabeth"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                >
+                                <TextView
+                                    android:id="@+id/nama2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Robert Pattinson"
+                                    android:textColor="@color/menu"
+                                    android:paddingLeft="3dp"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/light"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="80dp"
+                        android:layout_height="112dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginTop="10dp"
+                        app:cardElevation="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardBackgroundColor="@color/hitambaru"
+                        android:layout_marginBottom="20dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <ImageView
+                                    android:id="@+id/pemain3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/tenetclemence"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                >
+                                <TextView
+                                    android:id="@+id/nama3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Robert Pattinson"
+                                    android:textColor="@color/menu"
+                                    android:paddingLeft="3dp"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/light"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="80dp"
+                        android:layout_height="112dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        app:cardElevation="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardBackgroundColor="@color/hitambaru"
+                        android:layout_marginBottom="20dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <ImageView
+                                    android:id="@+id/pemain4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/tenetjohn"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                >
+                                <TextView
+                                    android:id="@+id/nama4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Robert "
+                                    android:textColor="@color/menu"
+                                    android:paddingLeft="3dp"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/light"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="320dp"
+                    android:layout_height="165dp"
+                    android:id="@+id/trailer"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tenetthumbnail"
+                        android:scaleType="fitXY"/>
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_playbutton"/>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ulasan"
+                    android:textColor="@color/menu"
+                    android:textSize="24sp"/>
+
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/my_nav_host_fragment3"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    app:navGraph="@navigation/bottom_sheet2"
+                    app:defaultNavHost="true"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

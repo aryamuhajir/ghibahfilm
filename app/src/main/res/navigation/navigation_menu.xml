@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/tabshome">
+
+    <fragment
+        android:id="@+id/category"
+        android:name="com.dicoding.ghibahfilm.category"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.dicoding.ghibahfilm.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/tabshome"
+        android:name="com.dicoding.ghibahfilm.tabshome"
+        android:label="fragment_tabshome"
+        tools:layout="@layout/fragment_tabshome" />
+</navigation>

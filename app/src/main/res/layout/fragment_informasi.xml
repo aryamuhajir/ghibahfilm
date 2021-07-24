@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informasi">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tombol"
+        android:paddingLeft="90dp"
+        android:paddingRight="120dp"
+        android:letterSpacing="0.1"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="140dp"
+
+        android:layout_marginLeft="28dp"
+        android:text="Beri Ulasan"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/bold"
+        android:drawableLeft="@drawable/ic_reviewicon"
+        android:background="@drawable/button3"/>
+
+</FrameLayout>
