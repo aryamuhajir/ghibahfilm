@@ -1,3 +1,2 @@
 # ghibahfilm
-Movies Catalog App
-UI/UX Practice
+Movies Catalog App for UI/UX Practice.
