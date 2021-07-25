@@ -24,10 +24,10 @@ Screenshots
  </p>
  <p float="center">
  <img src="detail.png" width="300">
+  <img src="bintang.jpg" width="230">
+ <img src="ulasan.jpg" width="230">
  </p>
   <p float="left">
- <img src="bintang.jpg" width="230">
- <img src="ulasan.jpg" width="230">
  <img src="strim.jpg" width="230">
  </p>
 
