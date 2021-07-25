@@ -13,22 +13,22 @@ This project uses the Gradle build system. To build this project, use the
 Screenshots
 -----------
 <p float="left">
- <img src="selamat.jpg" width="300">
- <img src="login.jpg" width="300">
- <img src="home.jpg" width="300">
+ <img src="selamat.jpg" width="200">
+ <img src="login.jpg" width="200">
+ <img src="home.jpg" width="200">
  </p>
  <p float="left">
- <img src="home2.jpg" width="300">
- <img src="kategori.jpg" width="300">
- <img src="profile.jpg" width="300">
+ <img src="home2.jpg" width="200">
+ <img src="kategori.jpg" width="200">
+ <img src="profile.jpg" width="200">
  </p>
  <p float="mid">
  <img src="detail.png">
  </p>
   <p float="left">
- <img src="bintang.jpg" width="300">
- <img src="ulasan.jpg" width="300">
- <img src="strim.jpg" width="300">
+ <img src="bintang.jpg" width="200">
+ <img src="ulasan.jpg" width="200">
+ <img src="strim.jpg" width="200">
  </p>
 
 
